@@ -1,0 +1,6 @@
+@NCP.API_HostAddress = http://localhost:5062
+
+GET {{NCP.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "n08YO1a+1ad5SNBODH0SGbuHMt6skhe5+N+aE39apaI=",
+  "Source": "NCP.API",
+  "BasePath": "_content/NCP.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
