@@ -1,10 +1,10 @@
 # Notification Channel Parser 📡
 
-## 🌟 Project Overview
+## 🌟 Overview
 
 Notification Channel Parser is a robust .NET Core API designed to parse and manage notification tags efficiently. The project provides a flexible solution for extracting and handling notification channels from raw text input.
 
-## 🚀 Key Features
+## 🚀 Features
 
 - **Dynamic Channel Parsing**: Extract relevant notification channels using regex
 - **File-based Tag Management**: Read and write tags to persistent storage
