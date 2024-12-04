@@ -75,3 +75,4 @@
 /Users/vannsoklay/NotificationChannelParser/NCP.API/obj/Debug/net9.0/NCP.API.pdb
 /Users/vannsoklay/NotificationChannelParser/NCP.API/obj/Debug/net9.0/NCP.API.genruntimeconfig.cache
 /Users/vannsoklay/NotificationChannelParser/NCP.API/obj/Debug/net9.0/ref/NCP.API.dll
+/Users/vannsoklay/NotificationChannelParser/NCP.API/obj/Debug/net9.0/NCP.API.sourcelink.json

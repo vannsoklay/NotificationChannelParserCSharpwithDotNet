@@ -26,19 +26,23 @@ git clone git@github.com:vannsoklay/NotificationChannelParserCSharpwithDotNet.gi
 cd NotificationChannelParserCSharpwithDotNet
 ```
 
-### 2. Restore Dependencies
+### Run the Backend
 
 ```bash
+cd */NCP.API/
 dotnet restore
-```
-
-### 3. Run the Application
-
-```bash
 dotnet run --urls http://localhost:5062
 ```
 
-## 🌐 File Store Data
+### Run the Client
+
+```bash
+cd */client/
+npm install --force
+npm run dev
+```
+
+## 💾 File Store Data
 - **Folder**: `/NCP.API/Files/tags.txt`
 
 
@@ -105,9 +109,16 @@ dotnet test
 Configure notification channels in `appsettings.json`:
 ```json
 {
-  "NotificationSettings": {
-    "RelevantChannels": ["BE", "FE", "QA", "Urgent"]
-  }
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=YourDatabase;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
 }
 ```
 
@@ -116,3 +127,7 @@ Configure notification channels in `appsettings.json`:
 - Microsoft.AspNetCore.Mvc
 - System.Text.RegularExpressions
 - Microsoft.Extensions.Logging
+
+![PIC-01](./images/pic-01.png)
+![PIC-02](./images/pic-02.png)
+![PIC-03](./images/pic-03.png)
