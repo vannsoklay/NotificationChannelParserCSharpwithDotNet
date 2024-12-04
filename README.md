@@ -22,8 +22,8 @@ Notification Channel Parser is a robust .NET Core API designed to parse and mana
 ### 1. Clone the Repository
 
 ```bash
-git clone git@github.com:vannsoklay/NotificationChannelParserC-withDotNet.git
-cd NotificationChannelParserC-withDotNet
+git clone git@github.com:vannsoklay/NotificationChannelParserCSharpwithDotNet.git
+cd NotificationChannelParserCSharpwithDotNet
 ```
 
 ### 2. Restore Dependencies
